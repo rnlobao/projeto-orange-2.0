@@ -1,1 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: Arial;
+    color: orangered;
+    margin-left: 8%;
+}
+
+#subtitulo {
+    font-family: Arial;
+    color: orangered;
+    margin-left: 18%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #f3d19d;
+    font-family: Arial;
+    font-size: 1em;
+    color: #000000;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, button {
+    font-family: Arial;
+    font-size: 1em;
+    color: rgba(26, 84, 127);
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1.5em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: orangered;
+    display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="number"], .campo input[type="date"] {
+    padding: 0.2em;
+    border: 1px solid rgb(185, 49, 0);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.botao {
+    font-size: 1.2em;
+    background: rgba(26, 84, 127);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.botao:hover {
+    background: #4c4268;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
 
